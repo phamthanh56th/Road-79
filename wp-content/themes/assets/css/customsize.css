@@ -42,9 +42,7 @@ section.related.products {
     max-width: 100%;
     padding: 0;
 }
-.woocommerce form .form-row label {
-    width: 100%;
-}
+.woocommerce form .form-row label,
 span.woocommerce-input-wrapper {
     width: 100%;
 }
