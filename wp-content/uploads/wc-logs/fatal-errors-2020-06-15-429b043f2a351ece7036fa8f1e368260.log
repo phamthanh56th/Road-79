@@ -1,0 +1,8 @@
+2020-06-15T06:30:25+00:00 CRITICAL Cannot use empty array elements in arrays in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 160
+
+2020-06-15T07:07:22+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 152
+
+2020-06-15T07:23:09+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 196
+
+2020-06-15T07:25:01+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 207
+
