@@ -1521,7 +1521,8 @@ header .logo img {
 }
 .testimonial .pic:after{
     content: "\f10d";
-    font-family: fontawesome;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
     width: 36px;
     height: 36px;
     line-height: 36px;

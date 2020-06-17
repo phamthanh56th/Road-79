@@ -64,7 +64,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-process">
                             <!-- process Icon -->
-                            <div class="picon"><i class="fa fa-money"></i></div>
+                            <div class="picon"><i class="fas fa-money-check-edit-alt"></i></div>
                             <!-- process Content -->
                             <div class="process_content">
                                 <h3>Phương thức đổi trả</h3>
