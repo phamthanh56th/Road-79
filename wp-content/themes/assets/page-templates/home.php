@@ -13,11 +13,11 @@
                     <div class="container"> 
                         <div class="single-slide-item-table">
                             <div class="single-slide-item-tablecell">
-                                <div class="slider_content text-left slider-animated-1">                        
-                                    <p class="animated">New Year 2018</p>
-                                    <h1 class="animated">best shopping</h1>
-                                    <h4 class="animated">Big Sale of This Week 50% off</h4>
-                                    <a href="#" class="btn main_btn animated">shop now</a>
+                                <div class="slider_content text-center slider-animated-1">                        
+                                    <!-- <p class="animated">Women fashion</p> -->
+                                    <h1 class="animated">AN TOÀN - CỔ ĐIỂN</h1>
+                                    <h4 class="animated">Đồng hành, bảo vệ, an toàn trên từng chặng đường.</h4>
+                                    <a href="#" class="btn main_btn animated">Xem thêm</a>
                                 </div>
                             </div>
                         </div>                      
@@ -29,17 +29,17 @@
                         <div class="single-slide-item-table">
                             <div class="single-slide-item-tablecell">
                                 <div class="slider_content text-center slider-animated-2">                      
-                                    <p class="animated">Women fashion</p>
-                                    <h1 class="animated">popular style</h1>
-                                    <h4 class="animated">Big Sale of This Week 50% off</h4>
-                                    <a href="#" class="btn main_btn animated">shop now</a>
+                                    <!-- <p class="animated">Women fashion</p> -->
+                                    <h1 class="animated">THINK SAFE THINK ARROW</h1>
+                                    <h4 class="animated">It is cheaper and more affordable to buy safety than to heal.</h4>
+                                    <a href="#" class="btn main_btn animated">Xem thêm</a>
                                 </div>
                             </div>
                         </div>  
                     </div>
                 </div>
                 
-                <div class="single_slide" style="background-image: url(<?php echo bloginfo('template_directory');?>/img/slider/3.jpg); background-size: cover; background-position: center ;">
+                <!-- <div class="single_slide" style="background-image: url(<?php echo bloginfo('template_directory');?>/img/slider/3.jpg); background-size: cover; background-position: center ;">
                     <div class="container">
                         <div class="single-slide-item-table">
                             <div class="single-slide-item-tablecell">
@@ -52,61 +52,106 @@
                             </div>
                         </div>
                     </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- End Slider Area -->
+        
+        <!--  Process -->
+        <section class="process_area section_padding">
+            <div class="container">
+                <div class="row text-center">       
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-process">
+                            <!-- process Icon -->
+                            <div class="picon"><i class="fa fa-truck"></i></div>
+                            <!-- process Content -->
+                            <div class="process_content">
+                                <h3>free shipping</h3>
+                                <p>Lorem ipsum dummy</p>
+                            </div>
+                        </div>  
+                    </div>  <!-- End Col -->                
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-process">
+                            <!-- process Icon -->
+                            <div class="picon"><i class="fa fa-money"></i></div>
+                            <!-- process Content -->
+                            <div class="process_content">
+                                <h3>Cash On Delivery</h3>
+                                <p>Lorem ipsum dummy</p>
+                            </div>
+                        </div>  
+                    </div>  <!-- End Col -->                
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-process">
+                            <!-- process Icon -->
+                            <div class="picon"><i class="fa fa-headphones "></i></div>
+                            <!-- process Content -->
+                            <div class="process_content">
+                                <h3>Support 24/7</h3>
+                                <p>Lorem ipsum dummy</p>
+                            </div>
+                        </div>  
+                    </div>  <!-- End Col -->        
                 </div>
             </div>
         </section>
-        <!-- End Slider Area -->        
+        <!--  End Process -->
     
         <!--  Promo ITEM STRAT  -->
-        <section id="promo_area ss" class="section_padding">
+        <section id="promo_area" class="section_padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">   
+                    <div class="col-lg-6 col-md-6 col-sm-12">   
                         <a href="#">
                             <div class="single_promo">
                                 <img src="<?php echo bloginfo('template_directory');?>/img/promo/1.jpg" alt="">
                                 <div class="box-content">
-                                    <h3 class="title">Men</h3>
-                                    <span class="post">2018 Collection</span>
+                                    <h3 class="title">OPEN-FACE HELMET</h3>
+                                    <!-- <span class="post">2018 Collection</span> -->
                                 </div>
                             </div>
                         </a>                        
                     </div><!--  End Col -->                     
-                    
-                    <div class="col-lg-4 col-md-6 col-sm-12">   
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <a href="#">
                             <div class="single_promo">
                                 <img src="<?php echo bloginfo('template_directory');?>/img/promo/2.jpg" alt="">
                                 <div class="box-content">
-                                    <h3 class="title">Shoe</h3>
-                                    <span class="post">2018 Collection</span>
+                                    <h3 class="title">CLASSIC HELMET</h3>
+                                    <!-- <span class="post">2018 Collection</span> -->
                                 </div>
-                            </div>  
+                            </div>
                         </a>    
-
-                        <a href="#">
-                            <div class="single_promo">
-                                <img src="<?php echo bloginfo('template_directory');?>/img/promo/4.jpg" alt="">
-                                <div class="box-content">
-                                    <h3 class="title">Watch</h3>
-                                    <span class="post">2018 Collection</span>
-                                </div>
-                            </div>  
-                        </a>    
-                        
-                    </div><!--  End Col -->                 
-
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    </div><!--  End Col -->         
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-12">   
                         <a href="#">
                             <div class="single_promo">
                                 <img src="<?php echo bloginfo('template_directory');?>/img/promo/3.jpg" alt="">
                                 <div class="box-content">
-                                    <h3 class="title">Women</h3>
-                                    <span class="post">2018 Collection</span>
+                                    <h3 class="title">ACCESSORIES</h3>
+                                    <!-- <span class="post">2018 Collection</span> -->
+                                </div>
+                            </div>
+                        </a>                        
+                    </div><!--  End Col -->                     
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <a href="#">
+                            <div class="single_promo">
+                                <img src="<?php echo bloginfo('template_directory');?>/img/promo/4.jpg" alt="">
+                                <div class="box-content">
+                                    <h3 class="title">SPORT HELMET</h3>
+                                    <!-- <span class="post">2018 Collection</span> -->
                                 </div>
                             </div>
                         </a>    
-                    </div><!--  End Col -->                 
+                    </div><!--  End Col --> 
                 
                 </div>          
             </div>      
@@ -194,8 +239,8 @@
                                         <img src="<?php the_post_thumbnail_url( '' ); ?>" alt=""/>
                                         <!-- <div class="new_badge">New</div> -->
                                         <div class="box-content">
-                                            <!-- <a href="#"><i class="fa fa-heart-o"></i></a>
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a> -->
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
                                             <a href="<?php echo get_the_permalink(); ?>"><i class="fa fa-search"></i></a>
                                         </div>                                      
                                     </div>
@@ -227,7 +272,7 @@
         <!-- End product Area -->
 
         <!-- Special Offer Area -->
-        <div class="special_offer_area gray_section">
+        <!-- <div class="special_offer_area gray_section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
@@ -247,7 +292,8 @@
                 </div>
 
             </div>
-        </div> <!-- End Special Offer Area -->
+        </div>  -->
+        <!-- End Special Offer Area -->
 
         <!-- Start Featured product Area -->
 
@@ -393,67 +439,9 @@
             </div>
         </section>
         <!--  Blog end -->
-        
-        
-        <!--  Process -->
-        <section class="process_area section_padding gradient_section">
-            <div class="container">
-                <div class="row text-center">       
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-process">
-                            <!-- process Icon -->
-                            <div class="picon"><i class="fa fa-truck"></i></div>
-                            <!-- process Content -->
-                            <div class="process_content">
-                                <h3>free shipping</h3>
-                                <p>Lorem ipsum dummy</p>
-                            </div>
-                        </div>  
-                    </div>  <!-- End Col -->                
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-process">
-                            <!-- process Icon -->
-                            <div class="picon"><i class="fa fa-money"></i></div>
-                            <!-- process Content -->
-                            <div class="process_content">
-                                <h3>Cash On Delivery</h3>
-                                <p>Lorem ipsum dummy</p>
-                            </div>
-                        </div>  
-                    </div>  <!-- End Col -->                
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-process">
-                            <!-- process Icon -->
-                            <div class="picon"><i class="fa fa-headphones "></i></div>
-                            <!-- process Content -->
-                            <div class="process_content">
-                                <h3>Support 24/7</h3>
-                                <p>Lorem ipsum dummy</p>
-                            </div>
-                        </div>  
-                    </div>  <!-- End Col -->                
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-process">
-                            <!-- process Icon -->
-                            <div class="picon"><i class="fa fa-clock-o"></i></div>
-                            <!-- process Content -->
-                            <div class="process_content">
-                                <h3>Opening All Week</h3>
-                                <p>Lorem ipsum dummy</p>
-                            </div>
-                        </div>  
-                    </div>  <!-- End Col -->
-                    
-                </div>
-            </div>
-        </section>
-        <!--  End Process -->
 
         <!--  Brand -->
-        <section id="brand_area" class="text-center">
+        <!-- <section id="brand_area" class="text-center">
             <div class="container">                 
                 <div class="row">
                     <div class="col-sm-12">
@@ -471,7 +459,7 @@
                     </div>
                 </div>
             </div>        
-        </section>        
+        </section>         -->
         <!--   Brand end  -->
 
 <?php get_footer(); ?>

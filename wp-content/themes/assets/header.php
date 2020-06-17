@@ -71,14 +71,11 @@
             </div> <!--  HEADER START  -->
             
             <div class="header_btm_area">
-                <div class="container">
-                    <div class="row">       
-                        <div class="col-xs-12 col-sm-12 col-md-3"> 
-                            <a class="logo" href="<?php echo esc_url(home_url('')); ?>"> <img alt="" src="<?php echo bloginfo('template_directory');?>/img/logo.png"></a> 
-                        </div><!--  End Col -->
-                        
-                        <div class="col-xs-12 col-sm-12 col-md-9 text-right">
-                            <div class="menu_wrap">
+                <div class="container-fluid">
+                    <div class="row">      
+                        <div class="col-xs-12 col-sm-12 col-md-12 text-left">
+                            <a class="logo" href="<?php echo esc_url(home_url('')); ?>"> <img alt="" src="<?php echo bloginfo('template_directory');?>/img/logo-79road.png"></a> 
+                            <div class="menu_wrap text-right">
                                 <div class="main-menu">
                                     <nav>
                                         <?php

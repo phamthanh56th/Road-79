@@ -67,14 +67,15 @@ jQuery(document).on('ready', function(){
 	var slider_active = $('.slider_active');
 	slider_active.owlCarousel({
 		loop:true,
-		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		// navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 		animateIn: 'fadeIn',
 		animateOut: 'fadeOut',
 		smartSpeed:450,
 		autoplay:true,
-		autoplayTimeout:6000,
+		autoplayTimeout:8000,
 		mouseDrag:false,
-		nav:true,
+		nav:false,
+		navigation: false,
 		dots:true,
 		responsive:{
 			0:{
