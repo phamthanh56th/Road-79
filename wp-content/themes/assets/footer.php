@@ -61,11 +61,11 @@
                         <div class="col-sm-4">
                             <div class="ftr_social_icon">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google"></i></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -76,11 +76,11 @@
                         <div class="col-sm-4">
                             <div class="payment_mthd_icon text-right">
                                 <ul>
-                                    <li><i class="fa fa-cc-paypal"></i></li>
-                                    <li><i class="fa fa-cc-visa"></i></li>
-                                    <li><i class="fa fa-cc-discover"></i></li>
-                                    <li><i class="fa fa-cc-mastercard"></i></li>
-                                    <li><i class="fa fa-cc-amex"></i></li>
+                                    <li><i class="fab fa-paypal"></i></li>
+                                    <li><i class="fab fa-cc-visa"></i></li>
+                                    <li><i class="fab fa-cc-discover"></i></li>
+                                    <li><i class="fab fa-cc-mastercard"></i></li>
+                                    <li><i class="fab fa-cc-amex"></i></i></li>
                                 </ul>
                             </div>
                         </div>
