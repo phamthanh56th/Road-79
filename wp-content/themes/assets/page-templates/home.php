@@ -64,7 +64,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-process">
                             <!-- process Icon -->
-                            <div class="picon"><i class="fas fa-money-check-edit-alt"></i></div>
+                            <div class="picon"><i class="fa fa-share"></i></div>
                             <!-- process Content -->
                             <div class="process_content">
                                 <h3>Phương thức đổi trả</h3>
@@ -76,11 +76,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-process">
                             <!-- process Icon -->
-                            <div class="picon"><i class="fa fa-truck"></i></div>
+                            <div class="picon"><i class="fa fa-plane"></i></div>
                             <!-- process Content -->
                             <div class="process_content">
                                 <h3>Giao hàng trên toàn quốc</h3>
-                                <p>Freeship với hóa đơn có giá trị từ 1.000.000 VND</p>
+                                <p>Freeship với hóa đơn có giá trị từ<br>1.000.000 VND</p>
                             </div>
                         </div>  
                     </div>  <!-- End Col -->                
@@ -165,7 +165,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="section_title">                     
-                            <h2>Our <span>Products</span></h2>
+                            <h2>Sản Phẩm <span>Yêu Thích</span></h2>
                             <div class="divider"></div>                         
                         </div>
                     </div>
@@ -247,14 +247,14 @@
 
                                     <div class="product_btm_text">
                                         <h4><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></h4>
-                                        <div class="p_rating">
+                                        <!-- <div class="p_rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                        </div>                                      
-                                        <span class="price"><?php echo $price; ?></span>
+                                        </div>                                       -->
+                                        <span class="price"><?php echo $price; ?>đ</span>
             
                                     </div>
                                 </div>
@@ -360,7 +360,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="section_title">                         
-                            <h2>latest <span>Blog</span></h2>
+                            <h2>79 Road <span>STORIES</span></h2>
                             <div class="divider"></div>
                         </div>
                     </div>
@@ -378,13 +378,13 @@
                             </div>
                                                 
                             <div class="blog_content">  
-                                <h4 class="post_title"><a href="#">Integer euismod dui non auctor</a> </h4>
-                                <ul class="post-bar">
+                                <h4 class="post_title"><a href="#">Câu chuyện từ những đôi găng tay</a> </h4>
+                                <!-- <ul class="post-bar">
                                     <li><i class="fa fa-user"></i> Admin</li>                                   
                                     <li><i class="fa fa-comments-o"></i> <a href="#">2 comments</a></li>
                                     <li><i class="fa fa-heart-o"></i> <a href="#">4 like</a></li>
-                                </ul>                           
-                                <p>Proin in blandit lacus. Nam pellentesque tortor eget dui feugiat venenatis ....</p>
+                                </ul>                            -->
+                                <!-- <p>Đối với những người mê rong ruổi và trải nghiệm, có lẽ đôi găng ....</p> -->
                             </div>
                         </div>
                     </div> <!--  End Col -->                
@@ -400,14 +400,14 @@
                             </div>
                                                 
                             <div class="blog_content">
-                                <h4 class="post_title"><a href="#">Integer tempor urna a condimentum</a> </h4>                              
-                                <ul class="post-bar">
+                                <h4 class="post_title"><a href="#">RAW AMBER - hơi thở từ thập niên 70</a> </h4>                              
+                                <!-- <ul class="post-bar">
                                     <li><i class="fa fa-user"></i> Admin</li>                                   
                                     <li><i class="fa fa-comments-o"></i> <a href="#">2 comments</a></li>
                                     <li><i class="fa fa-heart-o"></i> <a href="#">4 like</a></li>
-                                </ul>
+                                </ul> -->
                                 
-                                <p>Proin in blandit lacus. Nam pellentesque tortor eget dui feugiat venenatis ....</p>
+                                <!-- <p>𝐑𝐀𝐖 𝐀𝐦𝐛𝐞𝐫, một bản nâng cấp hoàn hảo từ thiết kế đến chất liệu của chiếc nón ....</p> -->
                             </div>
                         </div>
                     </div> <!--  End Col -->                
@@ -424,13 +424,13 @@
                                                 
                             <div class="blog_content">
                 
-                                <h4 class="post_title"><a href="#">Vivamus velit est iaculis id tempus</a> </h4>
-                                <ul class="post-bar">
+                                <h4 class="post_title"><a href="#">Vintage Love</a> </h4>
+                                <!-- <ul class="post-bar">
                                     <li><i class="fa fa-user"></i> Admin</li>                                       
                                     <li><i class="fa fa-comments-o"></i> <a href="#">2 comments</a></li>
                                     <li><i class="fa fa-heart-o"></i> <a href="#">4 like</a></li>
-                                </ul>
-                                <p>Proin in blandit lacus. Nam pellentesque tortor eget dui feugiat venenatis ....</p>
+                                </ul> -->
+                                <!-- <p>Người ta nói, nếu bạn thương bất cứ ai, bất cứ nơi nào một cách chân thành ....</p> -->
                             </div>
                         </div>
                     </div> <!--  End Col -->

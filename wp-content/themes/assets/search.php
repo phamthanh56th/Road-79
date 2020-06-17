@@ -30,13 +30,13 @@
 
                             <div class="product_btm_text">
                                 <h4><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></h4>
-                                <div class="p_rating">
+                                <!-- <div class="p_rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                </div>                                      
+                                </div>                                       -->
                                 <span class="price"><?php echo $price; ?></span> 
                             </div>
                         </div>                        

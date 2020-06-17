@@ -39,7 +39,19 @@ Version: 1.0
 	25. Wishlist Page CSS
 
 */
+*::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+	background-color: #fff; 
+}
 
+*::-webkit-scrollbar {
+	width: 8px;
+	background-color: #fff; 
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #303030; 
+}
 
 body, 
 html {
@@ -481,7 +493,7 @@ input:focus, textarea:focus {
 	font-size: 13px;
 	background: #F2F2F2;
 	font-weight: 500;
-	padding: 8px 0;
+	padding: 8px 0 0;
 }
 
 header .logo img {
@@ -520,6 +532,7 @@ header .logo img {
 	line-height: 11px;
 	display: inline;
 	cursor: pointer;
+	color: #fff;
 }
 .header_top_area .hdr_tp_right i.fa-caret-down{
 	color: #777;
@@ -528,7 +541,7 @@ header .logo img {
 	color: #777;
 }
 .header_btm_area{
-	padding: 15px 0;
+	padding: 0 0 15px;
 }
 
 .lan_area,
@@ -1640,7 +1653,8 @@ header .logo img {
 }
 .single_blog .blog_content {
 	display: inline-block;
-	padding: 10px 30px 30px;
+	padding: 10px 30px 10px;
+    min-height: 84px;
 }
 .blog_content h6 {
 	margin-bottom: 10px;
@@ -1723,13 +1737,19 @@ header .logo img {
 /* -------- Footer Css -------- */
 
 .footer_area {
+	background-image: url(../../assets/img/background-footer.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.footer-main {
 	padding:60px 0 20px;
 	position: relative;
 	color: #fff;
 	z-index: 100;
-	background: #222;
 	word-break: break-all;
 	word-wrap: break-word;
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .single_ftr form{
@@ -3211,7 +3231,7 @@ body.home .header_top_area .hdr_tp_right i.fa-caret-down {
 }
 
 .header_btm_area {
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .process_area {
