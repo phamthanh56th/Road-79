@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FancyShop - Ecommerce Bootstrap Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,800" rel="stylesheet"> 
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,800" rel="stylesheet">  -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">  
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/animate.css" />
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/owl.theme.default.min.css" />

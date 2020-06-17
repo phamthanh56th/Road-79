@@ -64,11 +64,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-process">
                             <!-- process Icon -->
-                            <div class="picon"><i class="fa fa-truck"></i></div>
+                            <div class="picon"><i class="fa fa-money"></i></div>
                             <!-- process Content -->
                             <div class="process_content">
-                                <h3>free shipping</h3>
-                                <p>Lorem ipsum dummy</p>
+                                <h3>Phương thức đổi trả</h3>
+                                <p>Hỗ trợ đổi size sản phẩm trong thời gian 3 ngày kể từ lúc nhận hàng</p>
                             </div>
                         </div>  
                     </div>  <!-- End Col -->                
@@ -76,11 +76,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-process">
                             <!-- process Icon -->
-                            <div class="picon"><i class="fa fa-money"></i></div>
+                            <div class="picon"><i class="fa fa-truck"></i></div>
                             <!-- process Content -->
                             <div class="process_content">
-                                <h3>Cash On Delivery</h3>
-                                <p>Lorem ipsum dummy</p>
+                                <h3>Giao hàng trên toàn quốc</h3>
+                                <p>Freeship với hóa đơn có giá trị từ 1.000.000 VND</p>
                             </div>
                         </div>  
                     </div>  <!-- End Col -->                
@@ -91,8 +91,8 @@
                             <div class="picon"><i class="fa fa-headphones "></i></div>
                             <!-- process Content -->
                             <div class="process_content">
-                                <h3>Support 24/7</h3>
-                                <p>Lorem ipsum dummy</p>
+                                <h3>Hỗ trợ trực tuyến</h3>
+                                <p>Luôn sẵn sàng hỗ trợ. Mọi thắc mắc vui lòng liên hệ trực tiếp Hotline : 0932726879</p>
                             </div>
                         </div>  
                     </div>  <!-- End Col -->        
