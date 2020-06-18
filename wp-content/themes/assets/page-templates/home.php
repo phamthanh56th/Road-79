@@ -231,6 +231,8 @@
                                 if ( $query->have_posts() ):
                                 while ( $query->have_posts() ) : $query->the_post();
                                     $price = get_post_meta( get_the_ID(), '_regular_price', true);
+                                    $pid = $post->ID;
+                                    $product = new WC_Product( $pid );
                             ?>
 
                             <div class="col-lg-3 col-md-4 col-sm-6 mix <?php echo $term->slug; ?>">
@@ -254,7 +256,7 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                         </div>                                      
-                                        <span class="price"><?php echo $price; ?></span>
+                                        <span class="price"><?php echo $product->get_price_html(); ?></span>
             
                                     </div>
                                 </div>
