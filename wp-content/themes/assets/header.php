@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FancyShop - Ecommerce Bootstrap Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,800" rel="stylesheet"> 
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,800" rel="stylesheet">  -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">  
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/animate.css" />
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/owl.theme.default.min.css" />
@@ -41,16 +42,16 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
                             <div class="hdr_tp_left">
-                                <div class="call_area">
+                                <!-- <div class="call_area">
                                     <span class="single_con_add"><i class="fa fa-phone"></i> +0123456789</span>
                                     <span class="single_con_add"><i class="fa fa-envelope"></i> example@gmail.com</span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         
                         <div class="col-xs-12 col-sm-6">
                             <ul class="hdr_tp_right text-right">
-                                <li class="account_area"><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>"><i class="fa fa-lock"></i> My Account</a></li>
+                                <!-- <li class="account_area"><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>"><i class="fa fa-lock"></i> My Account</a></li>
                                 <li class="lan_area"><a href="#"><i class="fa fa-language "></i> Language <i class="fa fa-caret-down"></i></a>
                                     <ul class="csub-menu">
                                         <li><a href="#">English</a></li>
@@ -63,7 +64,12 @@
                                         <li><a href="#">€Euro</a></li>
                                         <li><a href="#">৳BDT</a></li>       
                                     </ul>                               
-                                </li>
+                                </li> -->
+                                <li class="pr-1"><i class="fab fa-facebook-f" aria-hidden="true"></i></li>
+                                <li class="pr-1"><i class="fab fa-instagram" aria-hidden="true"></i></li>
+                                <li class="pr-1"><i class="fab fa-youtube" aria-hidden="true"></i></li>
+                                <li class="ml-3"><i class="fa fa-phone"></i>&nbsp&nbsp +0123456789</li>
+                                <li><i class="fa fa-envelope"></i>&nbsp&nbsp example@gmail.com</li>
                             </ul>
                         </div>
                     </div>

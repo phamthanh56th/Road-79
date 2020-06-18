@@ -1,0 +1,8 @@
+2020-06-17T13:53:29+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in C:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php:257
+Stack trace:
+#0 C:\xampp\htdocs\Road-79\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Road-79\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Road-79\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 257
+
