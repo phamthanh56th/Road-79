@@ -4,7 +4,7 @@
 		<?php
 		    global $query_string;
 		    $query_args = explode("&", $query_string);
-		    $search_query = array();
+		    $search_query = array('post_type' => 'product',);
 		    foreach($query_args as $key => $string) {
 		      $query_split = explode("=", $string);
 		      $search_query[$query_split[0]] = urldecode($query_split[1]);
@@ -16,6 +16,9 @@
 		    <!-- the loop -->
 		    <div class="row">
 		    	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+		    		<?php $price = get_post_meta( get_the_ID(), '_regular_price', true);
+                    $pid = $post->ID;
+                    $product = new WC_Product( $pid ); ?>
 		    		<div class="col-lg-3 col-md-4 col-sm-6 <?php echo $term->slug; ?>">
                         <div class="single_product">
                             <div class="product_image">
@@ -37,7 +40,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>                                       -->
-                                <span class="price"><?php echo $price; ?></span> 
+                                <span class="price"><?php echo $product->get_price_html(); ?></span>
                             </div>
                         </div>                        
                     </div> 

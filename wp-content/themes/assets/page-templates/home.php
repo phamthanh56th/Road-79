@@ -257,7 +257,7 @@
                                             <i class="fa fa-star"></i>
                                         </div>                                      
                                         <span class="price"><?php echo $product->get_price_html(); ?></span>
-            
+                                         <!-- <?php //echo do_shortcode( '[add_to_cart id=' . $id . ']' ) ?> -->
                                     </div>
                                 </div>
                                 
@@ -300,43 +300,61 @@
         <!-- Start Featured product Area -->
 
         <!-- Testimonials Area -->
-        <section id="testimonials" class="testimonials_area section_padding" style="background: url(<?php echo bloginfo('template_directory');?>/img/testimonial-bg.jpg); background-size: cover; background-attachment: fixed;">
+       <section id="testimonials" class="testimonials_area section_padding" style="background: url(<?php echo bloginfo('template_directory');?>/img/testimonial-bg.jpg); background-size: cover; background-attachment: fixed;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div id="testimonial-slider" class="owl-carousel">
-                            <?php
-                                $args_post = array(
-                                'post_type' => 'product',
-                                'posts_per_page' => -1,
-                                'orderby'=> 'date',
-                                'order' => 'ASC',
-                                'child_of'     => 0,
-                                'parent'       => 0,
-                                );
-                                $query = new WP_Query( $args_post );
-                                if ( $query->have_posts() ):
-                                while ( $query->have_posts() ) : $query->the_post();
-                                    $price = get_post_meta( get_the_ID(), '_regular_price', true);
-                                    $pid = $post->ID;
-                                    $product = new WC_Product( $pid );
-                            ?>
                             <div class="testimonial">
                                 <div class="pic">
-                                    <img src="<?php the_post_thumbnail_url( 'custom-size' ); ?>" alt="">
+                                    <img src="<?php echo bloginfo('template_directory');?>/img/testimonial/1.jpg" alt="">
                                 </div>
                                 <div class="testimonial-content">
-                                    
-                                    <h3 class="testimonial-title"><?php the_title( '', '', true ); ?></h3>
-                                    <small class="post"><?php echo $product->get_price_html(); ?></small>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Vivamus sed accumsan diam. Suspendisse molestie nibh at 
+                                        tempor mollis. Integer aliquet facilisis 
+                                    </p>
+                                    <h3 class="testimonial-title">williamson</h3>
+                                    <small class="post"> - Themesvila</small>
                                 </div>
                             </div>
-                            <?php endwhile; wp_reset_postdata(); endif; ?>
+             
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="<?php echo bloginfo('template_directory');?>/img/testimonial/2.jpg" alt="">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Vivamus sed accumsan diam. Suspendisse molestie nibh at 
+                                        tempor mollis. Integer aliquet facilisis 
+                                    </p>
+                                    <h3 class="testimonial-title">kristiana</h3>
+                                    <small class="post"> - Themesvila</small>
+                                </div>
+                            </div>   
+                            
+                            
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="<?php echo bloginfo('template_directory');?>/img/testimonial/3.jpg" alt="">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Vivamus sed accumsan diam. Suspendisse molestie nibh at 
+                                        tempor mollis. Integer aliquet facilisis 
+                                    </p>
+                                    <h3 class="testimonial-title">williamson</h3>
+                                    <small class="post"> - Themesvila</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> <!-- End STestimonials Area -->      
+        </section> <!-- End STestimonials Area -->        
         
         <!--  Blog -->
         <section id="blog_area" class="section_padding">

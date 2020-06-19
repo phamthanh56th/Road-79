@@ -1,0 +1,42 @@
+2020-06-19T07:00:08+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 20480 bytes) in D:\xampp\htdocs\Road-79\wp-includes\functions.php on line 4363
+
+2020-06-19T07:06:40+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on int in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php:261
+Stack trace:
+#0 D:\xampp\htdocs\Road-79\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\Road-79\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Road-79\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 261
+
+2020-06-19T07:06:59+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on int in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php:261
+Stack trace:
+#0 D:\xampp\htdocs\Road-79\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\Road-79\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Road-79\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 261
+
+2020-06-19T07:07:08+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on int in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php:261
+Stack trace:
+#0 D:\xampp\htdocs\Road-79\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\Road-79\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Road-79\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 261
+
+2020-06-19T07:07:51+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on int in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php:261
+Stack trace:
+#0 D:\xampp\htdocs\Road-79\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\Road-79\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Road-79\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 261
+
+2020-06-19T07:08:39+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on int in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php:261
+Stack trace:
+#0 D:\xampp\htdocs\Road-79\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\Road-79\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Road-79\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\Road-79\wp-content\themes\assets\page-templates\home.php on line 261
+

@@ -148,7 +148,8 @@
                                 
                                 <div class="right_menu">
                                     <ul class="nav justify-content-end">
-                                        <li><?php echo get_search_form(); ?>
+                                        <li><!-- <?php //echo get_product_search_form(); ?> -->
+                                            <?php echo get_search_form(); ?>
                                             
                                         </li>                                        
                                         <li>
