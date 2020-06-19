@@ -491,9 +491,10 @@ input:focus, textarea:focus {
 
 .header_top_area {
 	font-size: 13px;
-	background: #F2F2F2;
+	background: #4f4f4f;
 	font-weight: 500;
 	padding: 8px 0 0;
+	margin-bottom: 10px;
 }
 
 header .logo img {
@@ -505,7 +506,7 @@ header .logo img {
 	
 }
 .header_top_area i{
-	color: #4f4f4f;
+	color: #fff;
 }
 
 .call_area {
@@ -593,7 +594,7 @@ header .logo img {
 .search-box {
 	background: #fff;
 	position: absolute;
-	top: 41px;
+	top: 43px;
 	right: -7px;
 	width: 310px;
 	height: 60px;
@@ -613,6 +614,7 @@ header .logo img {
 	border-right: 12px solid transparent;
 	border-top: 14px solid transparent;
 	border-bottom: 14px solid #4f4f4f;
+	display: none;
 }
 .search-box .input-group{
 	width: 100%;
@@ -640,7 +642,7 @@ header .logo img {
 	position: absolute;
 	z-index: 100;
 	right: 8px;
-	top: 9px;
+	top: 8.6px;
 	border-radius: 0;
 	transition: 0.5s;
 }
@@ -1916,7 +1918,7 @@ header .logo img {
 #page_item_area {
 	padding: 45px 0;
 	margin-bottom: 40px;
-	background: linear-gradient(45deg, #43cea2 0%, #4f4f4f 100%);
+	background: #2F2F2F;
 }
 .p_items li {
 	display: inline-block;
