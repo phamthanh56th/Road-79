@@ -154,7 +154,7 @@
                                                 <div class="search-box">
                                                     <form action="<?php echo esc_url(home_url('')); ?>" method="get">
                                                         <div class="input-group">
-                                                           <input type="text" name="s" id="s" class="form-control"  placeholder="enter keyword"/>
+                                                           <input type="text" name="s" id="s" class="form-control"  placeholder="Tìm kiếm..."/>
                                                           
                                                             <button type="submit" id="searchsubmit" class="btn btn-default"><i class="fa fa-search"></i></button>         
                                                         </div>
