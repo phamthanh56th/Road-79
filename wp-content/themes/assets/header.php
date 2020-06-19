@@ -152,17 +152,10 @@
                                             <div class="search_icon">
                                                 <i class="fa fa-search search_btn" aria-hidden="true"></i>
                                                 <div class="search-box">
-                                                    <form action="<?php echo esc_url(home_url('')); ?>" method="get">
-                                                        <div class="input-group">
-                                                           <input type="text" name="s" id="s" class="form-control"  placeholder="Tìm kiếm..."/>
-                                                          
-                                                            <button type="submit" id="searchsubmit" class="btn btn-default"><i class="fa fa-search"></i></button>         
-                                                        </div>
-                                                    </form>
+                                                    <?php echo get_search_form(); ?>
                                                 </div>
                                             </div>
-                                        </li>
-                                        
+                                        </li>                                        
                                         <li>
                                             <div class="cart_menu_area">
                                                 <div class="cart_icon">

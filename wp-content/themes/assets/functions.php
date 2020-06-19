@@ -2,6 +2,9 @@
 
 	add_theme_support( 'post-thumbnails' );
 	add_post_type_support( 'page', 'excerpt' );
+	add_theme_support( 'woocommerce' );
+	add_image_size( 'custom-size', 100, 100, true );
+
 
 	//convert svg
 	function add_file_types_to_uploads($file_types){
