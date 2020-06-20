@@ -16,14 +16,12 @@
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/bootstrap.min.css" />  
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/style.css" />
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/responsive.css" /> 
-    <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/customsize.css" /> 
-    
+    <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/customsize.css?v=<?php echo time(); ?>" /> 
 </head>
 <?php wp_head(); ?>
     <body <?php echo body_class( '' ); ?>>
     
         <!--  Preloader  -->
-        
         <!-- <div class="preloader">
             <div class="status-mes">
                 <div class="bigSqr">
