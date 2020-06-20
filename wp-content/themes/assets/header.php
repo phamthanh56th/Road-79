@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/style.css" />
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/responsive.css" /> 
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/customsize.css" /> 
+    
 </head>
 <?php wp_head(); ?>
     <body <?php echo body_class( '' ); ?>>
