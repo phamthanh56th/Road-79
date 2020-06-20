@@ -47,11 +47,10 @@
 		    	<?php endwhile; ?>
 		    </div>
 		    <!-- end of the loop -->
-
 		    <?php wp_reset_postdata(); ?>
 
 		<?php else : ?>
-		    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+		    <p><?php _e( 'Sorry, no posts matched your criteria--' ); ?></p>
 		<?php endif; ?>
 	</div>
 </div>
