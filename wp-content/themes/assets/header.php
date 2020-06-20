@@ -148,11 +148,6 @@
                                 
                                 <div class="right_menu">
                                     <ul class="nav justify-content-end">
-<<<<<<< HEAD
-                                        <li><!-- <?php //echo get_product_search_form(); ?> -->
-                                            <?php echo get_search_form(); ?>
-                                            
-=======
                                         <li>
                                             <div class="search_icon">
                                                 <i class="fa fa-search search_btn" aria-hidden="true"></i>
@@ -160,7 +155,6 @@
                                                     <?php echo get_search_form(); ?>
                                                 </div>
                                             </div>
->>>>>>> 94629595f9755e760cc5b05ee9c326a24c3ca998
                                         </li>                                        
                                         <li>
                                             <div class="cart_menu_area">

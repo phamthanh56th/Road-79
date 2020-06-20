@@ -93,6 +93,7 @@
         <!--  FOOTER END  -->
 
         <script src="<?php echo bloginfo('template_directory');?>/js/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
         <script src="<?php echo bloginfo('template_directory');?>/js/bootstrap.min.js"></script>
         <script src="<?php echo bloginfo('template_directory');?>/js/jquery.meanmenu.min.js"></script>
         <script src="<?php echo bloginfo('template_directory');?>/js/jquery.mixitup.js"></script>
