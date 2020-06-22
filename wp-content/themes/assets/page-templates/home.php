@@ -9,50 +9,37 @@
         <!-- Start Slider Area -->
         <section id="slider_area" class="text-center">
             <div class="slider_active owl-carousel">
-                <div class="single_slide" style="background-image: url(<?php echo bloginfo('template_directory');?>/img/slider/1.jpg); background-size: cover; background-position: center;">
-                    <div class="container"> 
-                        <div class="single-slide-item-table">
-                            <div class="single-slide-item-tablecell">
-                                <div class="slider_content text-center slider-animated-1">                        
-                                    <!-- <p class="animated">Women fashion</p> -->
-                                    <h1 class="animated">AN TOÀN - CỔ ĐIỂN</h1>
-                                    <h4 class="animated">Đồng hành, bảo vệ, an toàn trên từng chặng đường.</h4>
-                                    <a href="#" class="btn main_btn animated">Xem thêm</a>
+                <?php  
+                    $args=array(
+                        'post_type' => 'slide',
+                        'post_status' => 'publish',
+                        'orderby' => 'date',
+                        'order' => 'ASC',
+                        'posts_per_page' => -1,
+                    );
+                ?>
+                <?php $k =''; ?>
+                <?php $my_query = new WP_Query($args); ?>
+                <?php if( $my_query->have_posts() ) : ?>
+                <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                <?php $k++; ?>   
+                    <div class="single_slide" style="background-image: url(<?php the_post_thumbnail_url();?>); background-size: cover; background-position: center;">
+                        <div class="container"> 
+                            <div class="single-slide-item-table">
+                                <div class="single-slide-item-tablecell">
+                                    <div class="slider_content <?php if($k%2 == 0) { echo "text-left slider-animated-1";} else {echo "text-center slider-animated-2";}; ?>">                        
+                                        <!-- <p class="animated">Women fashion</p> -->
+                                        <h1 class="animated"><?php the_title(); ?></h1>
+                                        <?php if(!empty(get_the_content())): ?>
+                                        <h4 class="animated"><?php the_content(); ?></h4>
+                                        <?php endif; ?>
+                                        <a href="#" class="btn main_btn animated">Xem thêm</a>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>                      
-                    </div>
-                </div>
-                
-                <div class="single_slide" style="background-image: url(<?php echo bloginfo('template_directory');?>/img/slider/2.jpg); background-size: cover; background-position: center ;">
-                    <div class="container">     
-                        <div class="single-slide-item-table">
-                            <div class="single-slide-item-tablecell">
-                                <div class="slider_content text-center slider-animated-2">                      
-                                    <!-- <p class="animated">Women fashion</p> -->
-                                    <h1 class="animated">THINK SAFE THINK ARROW</h1>
-                                    <h4 class="animated">It is cheaper and more affordable to buy safety than to heal.</h4>
-                                    <a href="#" class="btn main_btn animated">Xem thêm</a>
-                                </div>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                
-                <!-- <div class="single_slide" style="background-image: url(<?php echo bloginfo('template_directory');?>/img/slider/3.jpg); background-size: cover; background-position: center ;">
-                    <div class="container">
-                        <div class="single-slide-item-table">
-                            <div class="single-slide-item-tablecell">
-                                <div class="slider_content text-right slider-animated-3">                       
-                                    <p class="animated">Men Collection</p>
-                                    <h1 class="animated">popular style</h1>
-                                    <h4 class="animated">Big Sale of This Week 50% off</h4>
-                                    <a href="#" class="btn main_btn animated">shop now</a>
-                                </div>
-                            </div>
+                            </div>                      
                         </div>
-                    </div>
-                </div> -->
+                    </div>               
+                <?php endwhile; wp_reset_postdata(); endif;  ?>
             </div>
         </section>
         <!-- End Slider Area -->
@@ -105,53 +92,33 @@
         <section id="promo_area" class="section_padding">
             <div class="container">
                 <div class="row">
+                    <?php 
+                    $taxonomy = 'product_cat';
+                    $term_args = array(
+                        'post_type' => "product",
+                        'hide_empty' => true,
+                        'orderby' => 'slug',
+                        'order' => 'ASC',
+                        'taxonomy' => $taxonomy,
+                        'parent' => 0,
+                    );
+                    $tax_terms = get_terms($taxonomy, $term_args);
+                    foreach ($tax_terms as $key => $term) { 
+                        $thumbnail_id = get_woocommerce_term_meta( $term->term_id, 'thumbnail_id', true );
+                        $image = wp_get_attachment_url( $thumbnail_id ); ?>
                     <div class="col-lg-6 col-md-6 col-sm-12">   
-                        <a href="#">
+                        <a href="<?php echo get_term_link($term->term_id, $taxonomy); ?>">
                             <div class="single_promo">
-                                <img src="<?php echo bloginfo('template_directory');?>/img/promo/1.jpg" alt="">
+                                <img src="<?php echo $image;?>" alt="">
                                 <div class="box-content">
-                                    <h3 class="title">OPEN-FACE HELMET</h3>
+                                    <h3 class="title"><?php echo $term->name;?></h3>
                                     <!-- <span class="post">2018 Collection</span> -->
                                 </div>
                             </div>
                         </a>                        
-                    </div><!--  End Col -->                     
+                    </div>                    
+                    <?php } ?>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <a href="#">
-                            <div class="single_promo">
-                                <img src="<?php echo bloginfo('template_directory');?>/img/promo/2.jpg" alt="">
-                                <div class="box-content">
-                                    <h3 class="title">CLASSIC HELMET</h3>
-                                    <!-- <span class="post">2018 Collection</span> -->
-                                </div>
-                            </div>
-                        </a>    
-                    </div><!--  End Col -->         
-                    
-                    <div class="col-lg-6 col-md-6 col-sm-12">   
-                        <a href="#">
-                            <div class="single_promo">
-                                <img src="<?php echo bloginfo('template_directory');?>/img/promo/3.jpg" alt="">
-                                <div class="box-content">
-                                    <h3 class="title">ACCESSORIES</h3>
-                                    <!-- <span class="post">2018 Collection</span> -->
-                                </div>
-                            </div>
-                        </a>                        
-                    </div><!--  End Col -->                     
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <a href="#">
-                            <div class="single_promo">
-                                <img src="<?php echo bloginfo('template_directory');?>/img/promo/4.jpg" alt="">
-                                <div class="box-content">
-                                    <h3 class="title">SPORT HELMET</h3>
-                                    <!-- <span class="post">2018 Collection</span> -->
-                                </div>
-                            </div>
-                        </a>    
-                    </div><!--  End Col --> 
                 
                 </div>          
             </div>      
@@ -303,6 +270,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div id="testimonial-slider" class="owl-carousel">
+
                             <div class="testimonial">
                                 <div class="pic">
                                     <img src="<?php echo bloginfo('template_directory');?>/img/testimonial/1.jpg" alt="">
@@ -438,28 +406,4 @@
                 </div>
             </div>
         </section>
-        <!--  Blog end -->
-
-        <!--  Brand -->
-        <!-- <section id="brand_area" class="text-center">
-            <div class="container">                 
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="brand_slide owl-carousel">
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/1.png" alt="" class="img-responsive" /></a> </div>
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/2.png" alt="" class="img-responsive" /></a> </div>
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/3.png" alt="" class="img-responsive" /></a> </div>
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/4.png" alt="" class="img-responsive" /></a> </div>
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/5.png" alt="" class="img-responsive" /></a> </div>
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/6.png" alt="" class="img-responsive" /></a> </div>
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/7.png" alt="" class="img-responsive" /></a> </div>
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/8.png" alt="" class="img-responsive" /></a> </div>
-                            <div class="item text-center"> <a href="#"><img src="<?php echo bloginfo('template_directory');?>/img/brand/9.png" alt="" class="img-responsive" /></a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>        
-        </section>         -->
-        <!--   Brand end  -->
-
 <?php get_footer(); ?>

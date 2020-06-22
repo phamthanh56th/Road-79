@@ -220,6 +220,9 @@
  // 	}
 	// add_action( 'init', 'clean_commerce_child_custom_woo_fix' );
 
+
+	remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20);
+
 	    /*--------------------------------------------------
 	Ajax get total cart refesh
 	---------------------------------------------------*/

@@ -1,0 +1,8 @@
+2020-06-22T16:36:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\Xampp\htdocs\Road-79\wp-content\themes\assets\taxonomy-product_cat.php:13
+Stack trace:
+#0 D:\Xampp\htdocs\Road-79\wp-includes\template-loader.php(106): include()
+#1 D:\Xampp\htdocs\Road-79\wp-blog-header.php(19): require_once('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Road-79\index.php(17): require('D:\\Xampp\\htdocs...')
+#3 {main}
+  thrown in D:\Xampp\htdocs\Road-79\wp-content\themes\assets\taxonomy-product_cat.php on line 13
+
