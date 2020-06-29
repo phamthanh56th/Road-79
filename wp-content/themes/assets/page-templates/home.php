@@ -48,7 +48,7 @@
         <section class="process_area section_padding">
             <div class="container">
                 <div class="row text-center">       
-                    <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="col-md-4 col-12">
                         <div class="single-process">
                             <!-- process Icon -->
                             <div class="picon"><i class="fa fa-share"></i></div>
@@ -60,7 +60,7 @@
                         </div>  
                     </div>  <!-- End Col -->                
 
-                    <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="col-md-4 col-12">
                         <div class="single-process">
                             <!-- process Icon -->
                             <div class="picon"><i class="fa fa-plane"></i></div>
@@ -72,7 +72,7 @@
                         </div>  
                     </div>  <!-- End Col -->                
 
-                    <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="col-md-4 col-12">
                         <div class="single-process">
                             <!-- process Icon -->
                             <div class="picon"><i class="fa fa-headphones "></i></div>
@@ -202,7 +202,7 @@
                                     $product = new WC_Product( $pid );
                             ?>
 
-                            <div class="col-lg-3 col-md-4 col-sm-6 mix <?php echo $term->slug; ?>">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mix <?php echo $term->slug; ?>">
                                 <div class="single_product">
                                     <div class="product_image">
                                         <img src="<?php the_post_thumbnail_url( '' ); ?>" alt=""/>

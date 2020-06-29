@@ -791,7 +791,7 @@ header .logo img {
   margin-left: 4px;
 }
 .main-menu nav a:hover {
-	color: #fff;
+	color: #606060;
 }
 /* Sub Menu */
 .sub-menu {
@@ -3309,6 +3309,10 @@ body.home .header_top_area .hdr_tp_right i.fa-caret-down {
 
 @media(max-width: 767px) {
 	#promo_area .row > div:not(:last-child) {
-		margin-bottom: 10px;
+		/* margin-bottom: 10px; */
+	}
+
+	.process_area .row > div:not(:first-child)::before {
+		display: none;
 	}
 }

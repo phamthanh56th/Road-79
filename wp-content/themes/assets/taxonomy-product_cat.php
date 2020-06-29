@@ -40,7 +40,7 @@
                         $pid = $post->ID;
                         $product = new WC_Product( $pid );
                     ?>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="single_product">
                             <div class="product_image">
                                 <img src="<?php the_post_thumbnail_url( '' ); ?>" alt=""/>

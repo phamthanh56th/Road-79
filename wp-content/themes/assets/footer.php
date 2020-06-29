@@ -2,9 +2,9 @@
             <div class="footer-main">
                 <div class="container">
                     <div class="row">               
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-12">
                             <div class="single_ftr">
-                                <img class="mb-4" src="<?php echo bloginfo('template_directory');?>/img/logo-white-black.png">
+                                <img class="mb-4" src="<?php echo bloginfo('template_directory');?>/img/logo-79road.png">
                                 <ul>
                                     <li><i class="fa fa-home" aria-hidden="true"></i>&nbsp&nbsp 342 Lê Hồng Phong Nha Trang</li>
                                     <li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp&nbsp (+123) 685 78</li>
@@ -13,7 +13,7 @@
                             </div>
                         </div> <!--  End Col -->
                         
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-12">
                             <div class="single_ftr">
                                 <h4 class="sf_title">Information</h4>
                                 <ul>
@@ -26,7 +26,7 @@
                             </div>
                         </div> <!--  End Col -->
                         
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-12">
                             <div class="single_ftr">
                                 <h4 class="sf_title">Services</h4>
                                 <ul>
@@ -39,7 +39,7 @@
                             </div>
                         </div> <!--  End Col -->    
                         
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-12">
                             <div class="single_ftr">
                                 <h4 class="sf_title">Newsletter</h4>
                                 <div class="newsletter_form">

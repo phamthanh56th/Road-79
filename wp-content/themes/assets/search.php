@@ -23,7 +23,7 @@
 		    		<?php $price = get_post_meta( get_the_ID(), '_regular_price', true);
                     $pid = $post->ID;
                     $product = new WC_Product( $pid ); ?>
-		    		<div class="col-lg-3 col-md-4 col-sm-6 <?php echo $term->slug; ?>">
+		    		<div class="col-lg-3 col-md-4 col-sm-6 col-6 <?php echo $term->slug; ?>">
                         <div class="single_product">
                             <div class="product_image">
                                 <img src="<?php the_post_thumbnail_url( '' ); ?>" alt=""/>
